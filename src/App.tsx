@@ -1,9 +1,13 @@
-import { useState } from "react";
+import { Button } from "./components/ui/button";
+import { Input } from "./components/ui/input";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div>111</div>;
+  return (
+    <div>
+      <Button>Button</Button>
+      <Input />
+    </div>
+  );
 }
 
 export default App;
